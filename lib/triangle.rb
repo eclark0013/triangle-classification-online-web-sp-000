@@ -11,10 +11,10 @@ class Triangle
 
   def kind
     if @s1 <= 0 || @s1 + @s2 <= @s3
-      begin
+      #begin
         raise TriangleError
-      rescue TriangleError => error
-        puts error.message
+      #rescue TriangleError => error
+      #  puts error.message
       end
     else
       if @s1==@s2 && @s2==@s3
